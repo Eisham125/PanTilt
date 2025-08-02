@@ -8,7 +8,7 @@ This project integrates an ESP32-CAM module with Python to perform real-time fac
 * MicroPython on ESP32-CAM for servo control
 * Optional AIML chatbot for real-time communication
 
-🛠 Tech Stack
+Tech Stack
 Component	Technology Used:
 * Face Detection	OpenCV (Python)
 * Microcontroller	ESP32-CAM + MicroPython
@@ -19,36 +19,37 @@ Component	Technology Used:
 
  
 Requirements:
-Python 3.8+
-OpenCV
-Flask
-PySerial (for serial communication)
-ESP32-CAM board
-2x Servo motors (pan & tilt)
-MicroPython flashed on ESP32-CAM
-Modern web browser (for Flask interface)
+* Python 3.8+
+* OpenCV
+* Flask
+* PySerial (for serial communication)
+* ESP32-CAM board
+* 2x Servo motors (pan & tilt)
+* MicroPython flashed on ESP32-CAM
+* Modern web browser (for Flask interface)
 
-How It Works
-ESP32-CAM captures live video.
-Python script (OpenCV) detects faces in real-time.
-Detected face coordinates control servo motors for pan & tilt movement.
-Flask interface streams live video and provides basic control.
+How It Works  
+ESP32-CAM captures live video.  
+Python script (OpenCV) detects faces in real-time.  
+Detected face coordinates control servo motors for pan & tilt movement.  
+Flask interface streams live video and provides basic control.  
 
- Repository Structure
+Repository Structure  
 graphql
 Copy
 Edit
-PanTilt-FaceTracking/
+PanTilt-FaceTracking/  
 │
-├── esp32/           # MicroPython scripts for ESP32-CAM
-├── python/          # Python scripts for face detection & servo control
-├── templates/       # Flask web interface HTML files
-├── static/          # CSS/JS for Flask interface
-├── README.md        # Project documentation
-└── requirements.txt # Python dependencies
-▶️ Usage
+├── esp32/           # MicroPython scripts for ESP32-CAM  
+├── python/          # Python scripts for face detection & servo control  
+├── templates/       # Flask web interface HTML files  
+├── static/          # CSS/JS for Flask interface  
+├── README.md        # Project documentation  
+└── requirements.txt # Python dependencies  
+ 
+ 
+ ▶Usage
 Flash MicroPython to your ESP32-CAM.
-
 Upload the ESP32 servo control script to the board.
 
 Install Python dependencies:
