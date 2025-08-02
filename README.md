@@ -1,4 +1,4 @@
-Pan-Tilt Face Tracking Bot 🤖📷
+Pan-Tilt Face Tracking Bot  
 This project integrates an ESP32-CAM module with Python to perform real-time face tracking. A pan-tilt mechanism moves the camera based on detected faces using computer vision techniques. The system also provides a Flask web interface for live video streaming and optional chatbot interaction.
 
  Features:
