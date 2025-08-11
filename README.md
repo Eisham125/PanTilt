@@ -48,7 +48,7 @@ PanTilt-FaceTracking/
 └── requirements.txt # Python dependencies  
  
  
- ▶Usage
+Usage
 Flash MicroPython to your ESP32-CAM.
 Upload the ESP32 servo control script to the board.
 
